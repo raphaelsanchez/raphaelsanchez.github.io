@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
 }
 
 .social-media-list {
