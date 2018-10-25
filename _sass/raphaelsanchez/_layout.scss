@@ -1,3 +1,18 @@
+.site-header {
+
+  margin: auto;
+  padding: 4rem 1rem 2rem;
+
+  width: 800px;
+  max-width: 90%;
+
+
+  // logo
+  img {
+    width: 500px;
+    max-width: 90%;
+  }
+}
 .page-home {
 
   .page-content {
@@ -13,6 +28,18 @@
   .logo {
     width: 300px;
     max-width: 50%;
+  }
+
+}
+
+.page-default {
+
+  .page-content {
+    margin: auto;
+    padding: 1rem;
+
+    width: 800px;
+    max-width: 90%;
   }
 
 }
