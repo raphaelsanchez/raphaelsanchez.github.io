@@ -24,10 +24,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # facebook_username: raphy.perso
 twitter_username: _RaphaelSanchez
 linkedin_username: raphael-sanchez
-github_username:  raphaelsanchez
+github_username: raphaelsanchez
 
 # Contact
-contact_email: raphael@befreez.fr
+contact_email: hello@raphaelsanchez.design
 
 # Build settings
 markdown: kramdown
@@ -40,7 +40,6 @@ collections:
   pages:
     output: true
     permalink: /:path
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
