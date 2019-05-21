@@ -16,7 +16,7 @@
   <meta content="{{ site.title }}" property="og:title">
   {% endif %}
 
-  {% if page.title %}
+  {% if page.date %}
   <meta content="article" property="og:type">
   {% else %}
   <meta content="website" property="og:type">
@@ -40,7 +40,7 @@
   {% if page.image %}
   <meta content="{{ page.image }}" property="og:image">
   {% else %}
-  <meta content="/assets/images/raphaelsanchez-design.png" property="og:image">
+  <meta content="{{ site.url }}/assets/images/raphaelsanchez-design.png" property="og:image">
   {% endif %}
 
   {% if page.categories %}
