@@ -1,9 +1,12 @@
-/* 
+/*! 
 This stylesheet is dedicated to my codepen
-@see : https://codepen.io/raphaelsanchez
+@see: https://codepen.io/raphaelsanchez
+Author: Raphael Sanchez
 */
 
-/* Reset */
+/** 
+ * Reset 
+ * ----------------------------------------------- */
 *,
 *::before,
 *::after {
@@ -12,19 +15,28 @@ This stylesheet is dedicated to my codepen
   box-sizing: border-box;
 }
 
-/* Variables */
+/** 
+ * Variables 
+ * ----------------------------------------------- */
 :root {
   --gap: 2rem;
   --border-width: 4px;
   --color: #111;
   --background-color: #fffbd5;
+
+  --font-size--base: 16px;
 }
 
-/* Bases */
+/** 
+ * Bases 
+ * ----------------------------------------------- */
+
+ /* Root */
 html {
-  font-size: 16px;
+  font-size: var(--font-size--base);
 }
 
+/* Document */
 body {
   color: var(--color);
   background-color: var(--background-color);
@@ -36,9 +48,13 @@ h2 {
   margin: 2em 0 1em;
 }
 
-/* Media queries */
+/** 
+ * Media Queries 
+ * ----------------------------------------------- */
+
+/** For tablet and above  */
 @media (min-width: 45rem) {
-  html {
-    font-size: 1.2rem;
+  :root {
+    --font-size--base: 1.2rem;
   }
 }
