@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /oc-p2-booki/
 Disallow: /oc-p3-ohmyfood/
+Disallow: /mon-cv-html
