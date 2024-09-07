@@ -1,6 +1,6 @@
 :root {
-  --color-dark: #100e17;
-  --color-dark--invert: #fff;
+  --color-dark: #0f172a;
+  --color-dark--invert: #f8fafc;
   --color-accent: #4f46e5;
 }
 
@@ -60,9 +60,10 @@ footer {
 /* Header */
 .header__logo {
   width: 30vw;
-  max-width: 300px;
+  max-width: 400px;
   justify-self: center;
-  align-self: center
+  align-self: center;
+  border-radius: 100%
 }
 .header__title {
   font-size: 1.6em;
@@ -111,6 +112,8 @@ footer {
   align-items:center;
   padding: 2em;
   text-align: center;
+
+  border-radius: 2rem;
 
   background: var(--color-dark);
   color: var(--color-dark--invert)
