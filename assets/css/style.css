@@ -155,7 +155,6 @@ footer {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-column-gap: 4em;
-    min-height: 100vh;
     align-content: center;
   }
   .header__subtitle {
