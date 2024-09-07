@@ -7,9 +7,9 @@
 /** BASE */
 * { box-sizing: border-box }
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: system-ui, sans-serif;
   line-height: 1.4;
-  color: var(--dark-color)
+  color: var(--color-dark)
 }
 
 /* Headings */
@@ -140,17 +140,20 @@ footer {
   color: var(--color-dark--invert)
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 30rem) {
   body {
     font-size: 1.4rem;
   }
   .header,
   .section {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-column-gap: 4em;
     min-height: 100vh;
     align-content: center;
+  }
+  .header__subtitle {
+    font-size: 2.5em;
   }
   .section__title {
     text-align: right;
