@@ -44,7 +44,7 @@ footer {
 .header__logo,
 .section__title {
   grid-column: 2 / -1;
-  grid-row: 1 / span 2
+  grid-row: 1 / 4;
 }
 .header > *:not(.header__logo),
 .section > *:not(.section__title) { grid-column: 1 / 2 }
@@ -60,7 +60,7 @@ footer {
 /* Header */
 .header__logo {
   width: 30vw;
-  max-width: 400px;
+  max-width: 320px;
   justify-self: center;
   align-self: center;
   border-radius: 100%
