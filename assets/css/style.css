@@ -26,7 +26,10 @@ h3 { font-size: 1.25em }
 h4 { font-size: 1.125em }
 
 /* contents */
-p { margin-top: 0 }
+p { 
+  margin-top: 0;
+  text-wrap: pretty; 
+}
 header p,
 main p { max-width: 50ch }
 
@@ -40,7 +43,9 @@ footer {
 }
 
 /* Page header */
-
+.header {
+  margin-block: 10vw;
+}
 .header__logo,
 .section__title {
   grid-column: 2 / -1;
@@ -107,6 +112,7 @@ footer {
 
 /* Call to action */
 .cta {
+  margin-block: 5vw;
   display: flex;
   flex-direction: column;
   align-items:center;
