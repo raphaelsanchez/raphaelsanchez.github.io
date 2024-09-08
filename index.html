@@ -1,65 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:site_name" content="Raphael Sanchez Design">
   <meta property="og:title" content="Raphael Sanchez | Artisant Web à Rouen">
-  <meta property="og:description"
-    content="Designer et développeur front-end, spécialisé dans la création de site internet et expert Wordpress à Rouen">
+  <meta property="og:description" content="Développeur front-end, spécialisé dans la création de sites web accessibles et éco-conçus à Rouen">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://raphaelsanchez.design">
   <meta property="og:image" content="https://raphaelsanchez.design/assets/images/raphaelsanchez-design.png">
+  
+  <title>Raphael Sanchez | Artisant Web à Rouen</title>
 
-  <title>Raphael Sanchez Design</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="canonical" href="https://raphaelsanchez.design/index">
-
-
 </head>
 
 <body>
-
   <main>
-
     <header class="header">
       <img class="header__logo"  src="https://media.licdn.com/dms/image/v2/D4E03AQHnDgI2f9wt1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722346283891?e=1730937600&v=beta&t=ORQB_C19A2Jk-wqugLbTf2HuQpsoyBGfCu7x506kV_c" alt="Photo de profile de Raphael">
       <h1 class="header__title">Bonjour, je suis Raphael</h1>
       <h2 class="header__subtitle">Développeur frontend, spécialisé&nbsp;en&nbsp;IHM et Design System.</h2>
-
       <p>Passionné par la <strong>conception d’interfaces utilisateur</strong> qui allient accessibilité et éco-responsabilité, 
         je m'applique à créer des expériences performantes en respectant les standards et les bonnes pratiques du web.</p>
-
       <p>Fort de plus de 15 années d'expériences, j'ai eu le plaisir de participer à près d'une centaine de projets, des sites vitrines élégants 
         aux applications web complexes et innovantes. Mon parcours m'a également permis de collaborer avec des équipes pluridisciplinaires, 
         tant en tant que développeur indépendant qu'au sein d'entreprises dynamiques.</p>
     </header>
 
-
-    <section class="cta">
-      <h2 class="cta__title">👋 Travaillons ensemble !</h2>
+    <section class="cta" aria-labelledby="cta-title">
+      <h2 id="cta-title" class="cta__title">👋 Travaillons ensemble !</h2>
       <p class="cta__description">Vous cherchez un développeur expérimenté pour votre projet ou votre équipe ?</p>
       <p>N'hésitez pas à me contacter</p>
-      <a class="button" href="mailto:hello@raphaelsanchez.design">hello@raphaelsanchez.design</a>
-
+      <a class="button" href="mailto:hello@raphaelsanchez.design">M'envoyer un email</a>
       <ul class="social">
-        <li class="social__item"><a class="social__link" href="https://www.linkedin.com/in/raphael-sanchez-design/">LinkedIn</a></li>
-        <li class="social__item"><a class="social__link" href="https://github.com/raphaelsanchez">Github</a></li>
+        <li class="social__item"><a class="social__link" href="https://www.linkedin.com/in/raphael-sanchez-design/" aria-label="Consulter le LinkedIn de Raphael Sanchez">LinkedIn</a></li>
+        <li class="social__item"><a class="social__link" href="https://github.com/raphaelsanchez" aria-label="Consulter le Github de Raphael Sanchez">Github</a></li>
       </ul>
     </section>
-
   </main>
 
   <footer>
     <p class="credits">© Raphael Sanchez Design 
-    <div id="ecoindex-badge" data-theme="dark"></div>
-    <script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@3/assets/js/ecoindex-badge.js" defer></script>
+    <div id="ecoindex-badge" data-theme="dark" aria-label="Eco-index badge"></div>
+    <div id="wcb" class="carbonbadge" aria-label="Website Carbon Badge"></div>
   </footer>
 
+  <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@3/assets/js/ecoindex-badge.js" defer></script>
 </body>
 
 </html>

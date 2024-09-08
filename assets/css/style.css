@@ -29,15 +29,14 @@ h4 { font-size: 1.125em }
 p { 
   margin-top: 0;
   text-wrap: pretty; 
+  max-width: 50ch
 }
-header p,
-main p { max-width: 50ch }
 
 /** LAYOUT */
 header,
 main,
 footer {
-  margin: 2em auto 0;
+  margin: 2em auto;
   width: 90vw;
   max-width: 1440px
 }
@@ -77,30 +76,6 @@ footer {
 .header__subtitle {
   margin-top: 0;
   line-height: 1
-}
-
-/* references */
-.references__list,
-.reference__skills {
-  list-style: none;
-  padding-left: 0
-}
-.reference {
-  padding-bottom: 1em;
-  margin-bottom: 1em
-}
-.reference:not(:last-child) { border-bottom: 1px solid #F4F4F4 }
-.reference__link { font-size: .8em }
-.reference__skills { margin: 1em 0 }
-.reference__skill {
-  display: inline-block;
-  padding: .4em .8em;
-
-  border-radius: 1em;
-  background: var(--color-dark);
-  color: var(--color-dark--invert);
-
-  font-size: .6em
 }
 
 /* Credits */
